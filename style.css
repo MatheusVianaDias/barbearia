@@ -45,13 +45,46 @@ em strong{
 }
 
 
-UL{
+ul{
     display:inline-block;
     vertical-align: top;
-    width: 20%;
+    width: 88%;
     margin-right: 15%;
+    
 }
 
 .imagembeneficios{
     width: 50%;
+}
+
+a {
+    border-radius: 2px solid black;
+}
+
+nav{
+    position: absolute;
+    top: -15px;
+    right: 0px;
+    border-radius: 2px solid black;
+}
+
+nav li {
+    display: inline;
+    margin: 2px px;
+
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    
+}
+
+nav a:hover {
+    color: #c78c19;
+    text-decoration: underline;
+    
 }
