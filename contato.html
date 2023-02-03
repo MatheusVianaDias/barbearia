@@ -14,7 +14,7 @@
     <body>
         <header>
             <div class="caixa">
-                <h1><img id="gringo" src="elgringo1.png" alt=""></h1>
+                <h1><img id="gringo" src="elgringo1.png" alt="Logo da Barbearia"></h1>
                 <nav>
                     <ul>
                         <li><a href="index.html">Home</a></li>
@@ -28,34 +28,36 @@
         <main>
             <form>
                 <label for="nomesobrenome">Nome e Sobrenome</label>
-                <input type="text" id="nomesobrenome" class="input-padrao">
+                <input type="text" id="nomesobrenome" class="input-padrao" required placeholder="Nome e Sobrenome">
 
                 <label for="email">E-mail</label>
-                <input type="text" id="email" class="input-padrao">
+                <input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
 
                 <label for="telefone">telefone</label>
-                <input type="text" id="telefone" class="input-padrao">
+                <input type="tel" id="telefone" class="input-padrao"required placeholder="(xx)xxxxx-xxxx">
 
                 <label for="mensagem">Mensagem</label>
-                <textarea name="" id="mensagem" cols="65" rows="10"></textarea>
+                <textarea name="" id="mensagem" cols="65" rows="10" required></textarea>
 
-                <div>
-                    <p>Como prefere o nosso contato?</p>
+                <fieldset>
+                    <legend>Como prefere o nosso contato?</legend>
                     <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">Email</label>
                     
                     <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">telefone</label>
 
-                    <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp"> whatsapp</label>
-                </div>
+                    <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked> whatsapp</label>
+                </fieldset>
 
-                <p>Qual horario prefere ser atendido?</p>
-                <select>
-                    <option value="">manha</option>
-                    <option value="">tarde</option>
-                    <option value="">noite</option>
-                </select>
+                <fieldset>
+                    <legend>Qual horario prefere ser atendido?</legend>
+                    <select>
+                        <option value="">manha</option>
+                        <option value="">tarde</option>
+                        <option value="">noite</option>
+                    </select>
+                </fieldset>
 
-                <label class="checkbox"><input type="checkbox" name="" id=""> Gostaria de receber nossas novidades por email?</label>
+                <label class="checkbox"><input type="checkbox" checked name="" id=""> Gostaria de receber nossas novidades por email?</label>
 
                 <input type="submit" value="Enviar Formulario">
             </form>
@@ -64,7 +66,7 @@
 
     </body>
     <footer>
-        <img class="final" src="elgringo2.png" alt="">
+        <img class="final" src="elgringo2.png" alt="Logo da Barbearia">
         <p class="copyrigth">©Copyright Barbearia El Gringo's - 2023</p>
     </footer>
 
