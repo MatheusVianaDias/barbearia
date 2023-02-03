@@ -1,41 +1,65 @@
-<!DOCTYPE html>
-<html lang="pt-br">
+    <!DOCTYPE html>
+    <html lang="pt-br">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Produtos - Barbearia El Gringo's</title>
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="elgringo.jpg" type="image/x-icon">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Produtos - Barbearia El Gringo's</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" href="elgringo.jpg" type="image/x-icon">
+    </head>
 
-<body>
-    <header>
-        <div class="caixa">
-            <h1><img id="gringo" src="elgringo1.png" alt=""></h1>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="Produtos.html">Produtos</a></li>
-                    <li><a href="">Contatos</a></li>
-                </ul>
-            </nav>
-        </div>
+    <body>
+        <header>
+            <div class="caixa">
+                <h1><img id="gringo" src="elgringo1.png" alt=""></h1>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="Produtos.html">Produtos</a></li>
+                        <li><a href="">Contatos</a></li>
+                    </ul>
+                </nav>
+            </div>
 
-    </header>
-    <main>
-        <form>
-            <label for="nomesobrenome">Nome e Sobrenome</label>
-            <input type="text" id="nomesobrenome">
-        </form>
+        </header>
+        <main>
+            <form>
+                <label for="nomesobrenome">Nome e Sobrenome</label>
+                <input type="text" id="nomesobrenome" class="input-padrao">
 
-    </main>
+                <label for="email">E-mail</label>
+                <input type="text" id="email" class="input-padrao">
+
+                <label for="telefone">telefone</label>
+                <input type="text" id="telefone" class="input-padrao">
+
+                <label for="mensagem">Mensagem</label>
+                <textarea name="" id="mensagem" cols="65" rows="10"></textarea>
+
+                <div>
+                    <p>Como prefere o nosso contato?</p>
+                    <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">Email</label>
+                    
+                    <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">telefone</label>
+
+                    <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp"> whatsapp</label>
+                    
+                </div>
+
+                <label class="checkbox"><input type="checkbox" name="" id=""> Gostaria de receber nossas novidades por email?</label>
+
+                <input type="submit" value="Enviar Formulario">
+            </form>
+
+        </main>
+
+    </body>
     <footer>
         <img class="final" src="elgringo2.png" alt="">
         <p class="copyrigth">©Copyright Barbearia El Gringo's - 2023</p>
     </footer>
-</body>
 
-</html>
+    </html>
