@@ -1,76 +1,25 @@
-body{
-    
+header{
+    background: #bbbbbb;
+    padding: 20px 0;
 }
-
-#banner{
-    width: 100%;
+#gringo{
+    height: 240px;
 }
-
-.principal{
-    background-color: #cccccc;
-    padding: 30px;
-
-}
-
-.titulo-principal{
-    padding-left: 20px;
-}
-
-.titulo-centralizado{
-    text-align: center;
-    
-}
-
-p{
-    text-align: center;
-    
-}
-
-#missao{
-    font-size: 20px;
-}
-
-em strong{
-    color: red;
-}
-
-.itens{
-    font-style: italic;
-    font-size: 25px;
-}
-
-.beneficios{
-    background: #ffffff;
-    padding: 20px;
-}
-
-
-ul{
-    display:inline-block;
-    vertical-align: top;
-    width: 88%;
-    margin-right: 15%;
-    
-}
-
-.imagembeneficios{
-    width: 50%;
-}
-
-a {
-    border-radius: 2px solid black;
+.caixa{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
 }
 
 nav{
     position: absolute;
-    top: -15px;
-    right: 0px;
-    border-radius: 2px solid black;
+    top: 110px;
+    right: 0;
 }
 
 nav li {
     display: inline;
-    margin: 2px px;
+    margin: 0 0 0 15px;
 
 }
 
@@ -80,11 +29,76 @@ nav a {
     font-weight: bold;
     font-size: 20px;
     text-decoration: none;
+}
+
+.produtos li:hover{
+    border-color:#c78c19 ;
     
+
+}
+
+
+.produtos li:active{
+    border-color: green;
+}
+
+.produtos li:hover h2{
+    font-size: 35px;
 }
 
 nav a:hover {
     color: #c78c19;
     text-decoration: underline;
-    
 }
+
+.produtos {
+    width:940px ;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.produto-descricao {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.produto-preco {
+    font-size: 22px;
+    font-weight: bold;
+    margin:  10px 0 0;
+}
+
+.final{
+    width: 250px;
+}
+
+footer{
+    text-align: center;
+    background: url(bg.jpg);
+    padding: 40px 0;
+
+}
+
+.copyrigth{
+    color: white;
+    font-size: 13px;
+    margin: 20px 0 0;
+}
+
