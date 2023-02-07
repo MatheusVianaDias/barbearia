@@ -57,15 +57,17 @@ nav a:hover {
 }
 
 .produtos {
-    width:940px ;
+    max-width:940px ;
     margin: 0 auto;
     padding: 50px 0;
 }
 
+
+
 .produtos li {
     display: inline-block;
     text-align: center;
-    width: 30%;
+    max-width: 30%;
     vertical-align: top;
     margin: 0 1.5%;
     padding: 30px 20px;
@@ -269,7 +271,7 @@ td,th {
 } 
 
 @media screen and (max-width: 480px) {
-    .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video{
+    .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video, .produto-descricao {
         width: auto;
     }
 
@@ -281,7 +283,7 @@ td,th {
         position: static;
     }
 
-    .lista-beneficios, .imagem-beneficios{
+    .lista-beneficios, .imagem-beneficios, .imagem-produto{
         width: 100%;
     }
 
