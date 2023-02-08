@@ -16,6 +16,7 @@ header{
     margin: 0 auto;
 }
 
+
 nav{
     position: absolute;
     top: 110px;
@@ -36,12 +37,11 @@ nav a {
     text-decoration: none;
 }
 
+
 .produtos li:hover{
     border-color:#c78c19 ;
-    
 
 }
-
 
 .produtos li:active{
     border-color: green;
@@ -62,8 +62,6 @@ nav a:hover {
     padding: 50px 0;
     
 }
-
-
 
 .produtos li {
     display: inline-block;
@@ -106,22 +104,35 @@ footer{
 
 .copyrigth{
     color: white;
-    font-size: 13px;
+    font-size: 20px;
     margin: 20px 0 0;
 }
 
-main{
-    
-}
-
 form {
-    margin: 40px 0;
+    margin: 20px;
+
 }
 
 form label, form legend {
     display: block;
-    font-size: 20px;
+    font-size: 25px;
     margin: 10px 0 10px;
+}
+
+.quadro{
+    height: 40px;
+    width: 150px;
+    font-size: 15px;
+}
+
+.tabela-dias{
+    width: 50%;
+    font-size: 1.5em;
+}
+
+.tabela-dias td {
+   text-align: center;
+    
 }
 
 .input-padrao {
@@ -132,6 +143,11 @@ form label, form legend {
 
 }
 
+.tabela-mensagem{
+    width: 100%;
+    max-width: 55%;
+}
+
 .checkbox {
     margin: 20px 0px;
 }
@@ -139,6 +155,7 @@ form label, form legend {
 .enviar{
     width: 40%;
     padding: 15px 0;
+    margin-left: 50px;
     background: orange;
     color: white;
     font-weight: bold;

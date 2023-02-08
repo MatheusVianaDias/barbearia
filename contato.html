@@ -26,7 +26,7 @@
 
         </header>
         <main>
-            <form>
+            <form class="fomr">
                 <label for="nomesobrenome">Nome e Sobrenome</label>
                 <input type="text" id="nomesobrenome" class="input-padrao" required placeholder="Nome e Sobrenome">
 
@@ -37,9 +37,9 @@
                 <input type="tel" id="telefone" class="input-padrao"required placeholder="(xx)xxxxx-xxxx">
 
                 <label for="mensagem">Mensagem</label>
-                <textarea name="" id="mensagem" cols="65" rows="10" required></textarea>
+                <textarea class="tabela-mensagem" name="" id="mensagem" cols="30" rows="10" required></textarea>
 
-                <fieldset>
+                <fieldset >
                     <legend>Como prefere o nosso contato?</legend>
                     <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">Email</label>
                     
@@ -50,7 +50,7 @@
 
                 <fieldset>
                     <legend>Qual horario prefere ser atendido?</legend>
-                    <select>
+                    <select class="quadro">
                         <option value="">manha</option>
                         <option value="">tarde</option>
                         <option value="">noite</option>
@@ -62,7 +62,7 @@
                 <input type="submit" value="Enviar Formulario" class="enviar">
             </form>
 
-            <table>
+            <table class="tabela-dias">
                     <thead>
                         <tr>
                             <th>Dia</th>
