@@ -271,7 +271,7 @@ td,th {
     margin: 2em auto;
 } 
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 800px) {
     .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video, .produto-descricao {
         width: auto;
     }
@@ -287,5 +287,19 @@ td,th {
     .lista-beneficios, .imagem-beneficios, .imagem-produto{
         width: 100%;
     }
+    
+    .produtos{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center
+
+    }
+
+    .produtos li {
+        width: 282px;
+        max-width: none;
+        margin-bottom: 12px;
+    }
 
 }
+
